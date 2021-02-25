@@ -5,11 +5,25 @@
 # 加上#表示註解，所以這行為註解，程式並不會去執行，註解寫的愈好愈仔細，日後的維護會愈輕鬆
 # print("\n") 
 # \n : 換一行   \t : TAB   \b : backspace 指標往前一格
+# TODO:
 
 
-print('--- Python基礎語法 start ---')
-import basic #引用模組
-print('--- Python基礎語法 end ---')
+# TODO:寫一個 input 可輸入值，然後用if else 去判斷要跑以下那一個 import 語法
+
+learnNumber = int(input("請選擇課程 [1]基礎語法 [2]boolean和條件判斷語法 :"))
+print("\n")
+if learnNumber == 1:
+  print('--- \nPython基礎語法 start ---','\n')
+  import basic #引用模組
+  print('--- Python基礎語法 end ---','\n')
+elif learnNumber == 2:
+  print('--- Python boolean和條件判斷語法 start ---','\n')
+  import Conditional #引用模組
+  print('--- Python boolean和條件判斷語法 end ---','\n')
+elif learnNumber == 3:
+  print("敬請期待，請隨時關注哦!!!")
+else:
+  print("請輸入正確的課程代碼")
 
 
 
