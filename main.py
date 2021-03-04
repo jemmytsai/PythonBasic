@@ -17,7 +17,7 @@ import sys
 
 # TODO:寫一個 input 可輸入值，然後用if else 去判斷要跑以下那一個 import 語法
 
-LearnNumber = int(input("請選擇課程:\n[0]Python課程說明\n[1]基礎文字語法\n[2]基礎數字語法\n[3]boolean和條件判斷語法\n請輸入課程數字代碼:"))
+LearnNumber = int(input("請選擇課程:\n[0]Python課程說明\n[1]基礎文字語法\n[2]基礎數字語法\n[3]boolean和條件判斷語法\n[4]迴圈語法\n[5]群集-List\n請輸入課程數字代碼:"))
 print("\n")
 if LearnNumber == 0:
   print('--- Python ---','\n')
@@ -28,6 +28,10 @@ elif LearnNumber == 2:
 elif LearnNumber == 3:
   import Conditional # Python boolean和條件判斷語法
 elif LearnNumber == 4:
+  import Loop # Python 迴圈語法  
+elif LearnNumber == 5:
+  import BasicList # 群集-List說明與實作
+elif LearnNumber == 6:
   print("敬請期待，請隨時關注哦!!!")
 else:
   print("請輸入正確的課程代碼")

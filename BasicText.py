@@ -34,11 +34,21 @@ print("取文字的最後一個字:",word[len(word) - 1])
 print("取文字的第幾個字到第幾個字( [數值 : 數值] ):",word[5:11])
 print("取文字的第幾個字開始到最後一個字:",word[5:], "\n")
 
+# 取代字
+# str.replace(old, new[, max])
+# old − This is old substring to be replaced.
+# new − This is new substring, which would replace old substring.
+# max − If this optional argument max is given, only the first count occurrences are replaced.
 print("取代字 replace:")
-word = "hellohellohello"
-replaceword = word.replace("hello" , "googbye")
-print("不改舊的:" , word)
-print("回傳新的:" , replaceword)
+word = "hellopython"
+replaceword = word.replace("python" , "jemmy")
+print("原來的值:" , word)
+print("新的變數後的值:" , replaceword)
+
+print("轉成大寫 upper:")
+upper_text = "jemmy"
+print("文字變大寫_jemmy(upper)):" , upper_text.upper())
+
 
 
 #def backWord():
