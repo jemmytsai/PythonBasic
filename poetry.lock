@@ -1,0 +1,16 @@
+[[package]]
+category = "main"
+description = "Chinese Words Segmentation Utilities"
+name = "jieba"
+optional = false
+python-versions = "*"
+version = "0.42.1"
+
+[metadata]
+content-hash = "ef529b45532187d759c2839bd8f5fb3b5803d47d8327683feddf347b9e827fc8"
+python-versions = "^3.8"
+
+[metadata.files]
+jieba = [
+    {file = "jieba-0.42.1.tar.gz", hash = "sha256:055ca12f62674fafed09427f176506079bc135638a14e23e25be909131928db2"},
+]

@@ -27,7 +27,7 @@ import sys
 
 # TODO:寫一個 input 可輸入值，然後用if else 去判斷要跑以下那一個 import 語法
 
-LearnNumber = int(input("請選擇課程:\n[0]Python課程說明\n[1]基礎文字語法\n[2]基礎數字語法\n[3]boolean和條件判斷語法\n[4]迴圈語法\n[5]群集-List\n[6]群集-dictionary(字典)\n[7]群集-set\n[8]群集-Tuple\n請輸入課程數字代碼:"))
+LearnNumber = int(input("請選擇課程:\n[0]Python課程說明\n[1]基礎文字語法\n[2]基礎數字語法\n[3]boolean和條件判斷語法\n[4]迴圈語法\n[5]群集-List\n[6]群集-dictionary(字典)\n[7]群集-set\n[8]群集-Tuple\n[9]Import_Jieba(結巴)\n[10]檔案處理\n[11]自訂函數的架構\n[12]基本物件定義的方法\n請輸入課程數字代碼:"))
 print("\n")
 if LearnNumber == 0:
   print('--- Python ---','\n')
@@ -56,6 +56,18 @@ elif LearnNumber == 8:
   # 群集-set
   import BasicTuple
 elif LearnNumber == 9:
+  # 群集-set
+  import Basic_Import_Jieba  
+elif LearnNumber == 10:
+  # 檔案處理
+  import BasicFileProcess    
+elif LearnNumber == 11:
+  # 自訂函數的架構
+  import BasicDef     
+elif LearnNumber == 12:
+  # 自訂函數的架構
+  import BasicClass     
+elif LearnNumber == 13:
   print("敬請期待，請隨時關注哦!!!")
 else:
   print("請輸入正確的課程代碼")
